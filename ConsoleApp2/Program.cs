@@ -8,7 +8,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Task8();
+            Task9();
         }
         public static void Task1()
         {
@@ -101,11 +101,29 @@ namespace ConsoleApp2
             {
                 Console.Write(item+" ");
             }
-
-
         }
-        public static void Task9()
 
+        //вывести на экран элементы массивов
+        public static void Task9()
+        {
+            int[]array= { 5, 8, 996, 5, 8, 966, 25, 63, 45 };
+             int result=0 ;
+            for (int i = 0; i < array.Length; i++)
+            {
+                //result = array[i];
+                //foreach (var item in array)
+                //{
+
+                //    Console.Write(item+", ");
+                //}
+                //break;
+                Console.WriteLine(array[i]);
+            }
+           
+        }
+
+                    
+                    
 
 
 
