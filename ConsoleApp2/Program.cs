@@ -8,7 +8,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Task9();
+            Task10();
         }
         public static void Task1()
         {
@@ -121,9 +121,34 @@ namespace ConsoleApp2
             }
            
         }
+        //Вы учитель начальной школы, который объясняет своим ученикам умножение.
+        //Вы собираетесь использовать умножение на 3 в качестве примера.
+        //Вам дана программа, которая принимает число N в качестве входных данных.
+        //Напишите программу, которая будет выводить все числа от 1 до N, заменяя все числа кратные 3 на "*".
+        public static void Task10()
+        {
+            int result = 7;
+            char star = '*';
+            for (int i = 1; i < result; i++)
+            {
+                if (i % 3 == 0)
+                {
+                    Console.Write(star+" ");
+                }
+                else
+                {
+                    Console.Write(i+" ");
+                }
+                
+                
 
-                    
-                    
+
+
+            }
+            
+
+        
+        }
 
 
 
@@ -132,4 +157,13 @@ namespace ConsoleApp2
 
 
 }   }
+
+
+
+
+
+
+
+
+
 
