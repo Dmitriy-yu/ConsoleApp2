@@ -8,7 +8,7 @@ namespace ConsoleApp2
     {
         static void Main(string[] args)
         {
-            Task6();
+            Task8();
         }
         public static void Task1()
         {
@@ -84,10 +84,32 @@ namespace ConsoleApp2
             Console.WriteLine(min);
         
         }
+        //найти сумму всех четных элементов массива
+        public static void Task7()
+        {
 
-          
-        
-       
+            int[] array = { 2, 3, 4 ,5};
+            int sum = array.Where(i=>i%2!=0). Min();
+            Console.WriteLine(sum);
+        }
+        //отсортировать элементы массива по возрастанию
+        public static void Task8()
+        {
+            int[] array = { 45, 2, 56, 45 };
+            int[] result = array.OrderBy(i => i).ToArray();
+            foreach (var item in result)
+            {
+                Console.Write(item+" ");
+            }
+
+
+        }
+        public static void Task9()
+
+
+
+
+
 
 
 
